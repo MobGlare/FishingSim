@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tropical_fish",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "Axolotl",
+                "minecraft:food": {
+                  "nutrition": 6,
+                  "saturation": 6,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:regeneration",
+                        "amplifier": 0,
+                        "duration": 100
+                      }
+                    }
+                  ]
+                },
+                "minecraft:custom_model_data": 44
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:entities/axolotl"
+}

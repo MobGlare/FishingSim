@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "GGG",
+      "GFG",
+      "GGG"
+    ],
+    "key": {
+      "G": {
+        "item": "minecraft:gold_nugget"
+      },
+      "F": {
+        "tag": "fishingsim:fish"
+      }
+    },
+    "result": {
+      "id": "minecraft:tropical_fish",
+      "components": {
+        "minecraft:custom_model_data": 46,
+        "minecraft:item_name": "Goldfish"
+      }
+    }
+  }
+  
